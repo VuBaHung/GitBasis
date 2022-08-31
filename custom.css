@@ -1,0 +1,51 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.banner {
+  height: 850px;
+  background-image: url("./banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+.banner .task-bar {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+.banner .task-bar .about, .banner .task-bar .sign-in {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 7px 15px;
+}
+.banner .task-bar .sign-in {
+  margin: 0 20px;
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+.banner .logo {
+  background-image: url("./hapoERP.png");
+  height: 80px;
+  margin-top: 300px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.banner .symbol {
+  margin-top: 100px;
+  display: flex;
+  padding: 5px;
+}
+.banner .symbol .gift, .banner .symbol .clock, .banner .symbol .like {
+  display: inline;
+  width: 33%;
+  text-align: center;
+  font-size: 30px;
+}
+.banner .symbol .gift span, .banner .symbol .clock span, .banner .symbol .like span {
+  display: block;
+  font-size: 30px;
+}
